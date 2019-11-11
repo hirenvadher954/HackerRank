@@ -2,8 +2,8 @@
 import os
 import math
 import sys
-import random
 import re
+import random
 
 
 # Complete the birthday function below.
