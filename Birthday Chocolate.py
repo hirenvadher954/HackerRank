@@ -1,10 +1,10 @@
 #!/bin/python3
 import os
 import math
-
+import sys
 import random
 import re
-import sys
+
 
 # Complete the birthday function below.
 def birthday(s, d, m):
