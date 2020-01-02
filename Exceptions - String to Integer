@@ -1,0 +1,14 @@
+#!/bin/python3
+
+import sys
+
+
+S = input().strip()
+
+try:
+    d = int(S)
+    print(d)
+except Exception:
+    print("Bad String")
+
+
