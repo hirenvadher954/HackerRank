@@ -15,7 +15,7 @@ def acmTeam(topic):
     for i in range(0, size):
         for j in range(i + 1, size):
             topics = str("{0:b}".format((int(topic[i], 2) | int(topic[j], 2))))
-            if topics.count("1") > max_topics_numbers:
+            if topics.count("1") >  max_topics_numbers:
                 max_topics_numbers = topics.count("1")
                 teams = 1
             else:
